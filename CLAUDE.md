@@ -1,65 +1,72 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+这个文件给 Claude Code 提供项目开发指导。
 
 ## 项目概述
 
-这是一个 Claude Code 完整学习路径导航知识库，按照官方学习路径组织，包含从基础到高级的六大级别内容。
+这是一个中文 AI 编程知识库，包含两大部分：
 
-## 项目架构
+1. **ClaudeCode** - Claude Code 完整学习指南（安装、配置、命令、技巧）
+2. **Prompt Engineering** - 实用 Prompt 示例集（角色扮演、学习、开发、写作等）
 
-### 分级学习结构
-- **Level 1** (`Level-1-Core-CLI/`): 核心 CLI 功能 - 安装配置、基本命令、工作流实践
-- **Level 2** (`Level-2-Configuration/`): 配置与自定义 - CLAUDE.md 配置、模型配置
-- **Level 3** (`Level-3-Extension-Systems/`): 扩展系统 - Sub Agents、MCP、Hooks、Skills
-- **Level 4** (`Level-4-Programmatic/`): 编程式使用 - Headless 模式、SDK 集成
-- **Level 5** (`Level-5-Enterprise/`): 企业部署 - IAM、安全、监控
-- **Level 6** (`Level-6-Best-Practices/`): 最佳实践和资源汇总
+## 目录结构
 
-### 文档格式
-- 使用 Obsidian 格式的 Markdown 文件
-- 每个文档包含 YAML frontmatter 元数据
-- 支持中文内容，专业术语保留英文
-- 使用 `[[wikilink]]` 格式进行内部链接
+```
+AICodingTips/
+├── ClaudeCode/              # Claude Code 学习指南
+│   ├── 01-Core/            # 核心功能：安装、命令、配置
+│   ├── 02-Extensions/      # 扩展系统：MCP、Hooks、Skills
+│   ├── 03-Best-Practices/  # 最佳实践和技巧
+│   ├── COMMANDS.md         # 120+ 命令速查
+│   ├── SKILLS.md           # 19 个技能说明
+│   └── README.md           # 导航入口
+│
+├── Prompt Engineering/      # Prompt 示例库
+│   ├── Role/               # 角色扮演类 (3 个)
+│   ├── Plan/               # 规划思考类 (1 个)
+│   ├── 开发/                # 代码开发类 (7 个)
+│   ├── 学习/                # 学习教育类 (9 个)
+│   ├── 写作/                # 写作辅助类 (3 个)
+│   ├── 翻译/                # 翻译类 (2 个)
+│   ├── AI/                 # AI 分析类 (2 个)
+│   ├── 其他/                # 其他工具 (3 个)
+│   └── README.md           # 导航和使用指南
+│
+├── docs/                   # 参考文档
+│   ├── Android/           # Android 开发规范和手册
+│   ├── CLAUDE.md/         # 开发准则
+│   └── commands/          # 命令文档
+│
+└── README.md              # 项目总导航
+```
 
-## 常用开发任务
-
-### 文档创建和编辑
-- 新建文档时需要添加完整的 YAML frontmatter
-- 保持中文内容为主，专业术语使用英文
-- 使用 Obsidian wikilink 格式 `[[文档名]]` 进行内部引用
-- 文档大小建议控制在合理范围内，过长文档需要拆分
-
-### 内容组织原则
-- 每个级别文件夹内的文件建议不超过 8 个
-- 如超过需要创建子文件夹进行分类
-- 避免重复内容，保持文档间的逻辑关联
-
-### 学习路径维护
-- 保持六个级别的递进关系
-- 每个级别的 README 应包含学习目标、内容列表和检查点
-- 确保内部链接的准确性和完整性
-
-## 内容开发指南
-
-### 文档结构标准
-每个学习文档应包含：
-- YAML frontmatter 元数据
-- 清晰的学习目标说明
-- 结构化的内容组织
-- 实用的检查点或总结
-- 指向下一步学习的链接
+## 开发原则
 
 ### 语言和术语
-- 主要使用简体中文进行说明
-- 计算机科学专业术语保留英文
-- 特别是：Android 开发、Gradle、Kotlin、Java、Python、HTML/CSS/JavaScript、AI 相关术语
+- 主要使用简体中文
+- 技术术语保留英文：Android、Kotlin、Java、Python、Git、Claude Code、MCP、Hooks 等
+- 不使用"AI 味道"很重的表达，保持人性化和简洁
 
-### 链接规范
+### 文档编写
+- 不使用 YAML frontmatter
 - 使用相对路径进行内部链接
-- 保持链接的一致性和可维护性
-- 定期检查链接的有效性
+- 避免重复内容，保持逻辑关联
+- 每个文档控制在合理长度，过长需拆分
+- 简洁详细，不要废话
+
+### 目录组织
+- 每个目录下文件数量控制在 8 个以内
+- 超过 8 个需创建子目录分类
+- 保持目录结构简洁清晰
+
+## Android 开发规范
+
+项目包含完整的 Android 编码规范（基于阿里巴巴标准）：
+- **主文档**：`ClaudeCode/01-Core/07-Android编码规范.md`
+- **参考资源**：`docs/Android/` 目录下的详细文档和 PDF
+
+在为 Android 项目提供开发建议时，优先参考这些规范。
 
 ## 项目特色
 
-这是一个中文学习资源库，专门为中文用户提供 Claude Code 的系统化学习路径。内容组织遵循官方学习路径，同时结合中文社区的最佳实践经验。
+专为中文开发者打造的 AI 编程学习资源，内容实用、结构清晰、持续更新。

@@ -315,8 +315,8 @@ fun clickButton_shouldShowToast() {
 ## 参考资源
 
 - [阿里巴巴 Android 开发手册](../../../docs/Android/阿里巴巴Android%20开发手册.pdf)
-- [详细开发规范](../../../instructions/alibaba-android-development-standards.md)
-- [AndroidX 注解指南](../../../instructions/androidx_annotation_guide.md)
+- [详细开发规范](../../../docs/Android/alibaba-android-development-standards.md)
+- [AndroidX 注解指南](../../../docs/Android/androidx_annotation_guide.md)
 
 ---
 
