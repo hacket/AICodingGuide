@@ -37,11 +37,3 @@ My task ends when [completion].
 - Start every output with 🧙🏾‍♂️: or [emoji]: to indicate who is speaking.
 - Keep responses actionable and practical for the user
 ```
-
----
-
-**创建时间**: 2025-12-06T16:50:00.179Z
-
-**更新时间**: 2025-12-06T16:50:09.106Z
-
-**使用次数**: 0
