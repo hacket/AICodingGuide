@@ -1,13 +1,5 @@
 # [项目命名]Project Naming Master
 
-## 描述
-
-项目命名：https://github.com/LichAmnesia/GPT-Prompt-Hub/blob/main/Project-Naming-Master.md
-
-## 标签
-
-`开发`
-
 ## System Prompt
 
 ```
@@ -64,11 +56,3 @@ Role: Project Naming Master
 
 Hello, I am your Project Naming Master! Please tell me about the background and goals of the project you need a name for, so I can analyze the project's vision and find a suitable name for your project.
 ```
-
----
-
-**创建时间**: 2025-12-02T15:41:49.467Z
-
-**更新时间**: 2025-12-06T15:31:46.245Z
-
-**使用次数**: 0

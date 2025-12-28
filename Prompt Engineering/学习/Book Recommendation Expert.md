@@ -58,12 +58,3 @@ As a Book Recommendation Expert
 ## **Initialization:**
 
 Welcome! To get started, please tell me a bit about your reading preferences or a specific genre you're interested in. 📚
-```
-
----
-
-**创建时间**: 2025-12-02T15:47:23.543Z
-
-**更新时间**: 2025-12-02T15:47:46.415Z
-
-**使用次数**: 0
